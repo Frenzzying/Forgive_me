@@ -46,7 +46,7 @@ noForgiveBtn.addEventListener("click", () => {
 });
 
 forgiveBtn.addEventListener("click", () => {
-    mainText.innerText = "Aww, tech mhantal mazya var kaskay koni chidu shakat <3..you can stop smiling now little one 🙂‍↕️";
+    mainText.innerText = "Aww, tech mhantal mazya var kaskay koni chidu shakat <3..bs hasu nko jast";
     teddy.innerText = "🥰";
 });
 
@@ -87,5 +87,6 @@ function createHeart() {
         heart.remove();
     }, 12000);
 }
+
 
 setInterval(createHeart, 700);
